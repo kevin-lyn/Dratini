@@ -78,7 +78,12 @@ struct LogInRequest: Request {
 // - JSONBodyData for JSON format body data.
 // - MultipartFormData for multipart form data, it will mostly be used for uploading file.
 //
-// In order to allow you to keep the naming convention of different platforms, property name of DefaultQueryString, URLEncodedBodyData and JSONBodyData will be mapped to other naming convention, by default it will be converted to lowercase name separated by underscore, e.g. accessToken will be converted to access_token. You can set the mapping by overriding "serializableMapping" function. See more details in Ditto project's README.
+// In order to allow you to keep the naming convention of different platforms,
+// property name of DefaultQueryString, URLEncodedBodyData and JSONBodyData will be mapped to other naming convention.
+// By default property will be converted to lowercase name separated by underscore,
+// e.g. accessToken will be converted to access_token. 
+// You can set the mapping by overriding "serializableMapping" function.
+// See more details in Ditto project's README.
 struct LogInParameters: URLEncodedBodyData {
     let username: String
     let password: String
@@ -107,7 +112,8 @@ Send the request and observe for response:
 let request = LogInRequest(parameters: LogInParameters(username: username,
                                                        password: password))
 let requestID = RequestQueue.shared.add(request)
-// Observe by using requestID, the observer will be removed by RequestQueue after the request is finished.
+// Observe by using requestID.
+// The observer will be removed by RequestQueue after the request is finished.
 requestQueue.addObserver(for: requestID) { (result: Result<LogInResponse>) in
     guard let response = result.response else {
         // Show error message
@@ -115,7 +121,9 @@ requestQueue.addObserver(for: requestID) { (result: Result<LogInResponse>) in
     }
     // Update UI by using response.username and response.name
 }
-// Observe a specific response type. The observer is owned by an owner. The owner is held weakly by RequestQueue, thus the observer will be removed if owner is released.
+// Observe a specific response type. 
+// The observer is owned by an owner. The owner is held weakly by RequestQueue,
+// thus the observer will be removed if owner is released.
 requestQueue.addObserver(ownedBy: self) { [weak self] (result: Result<LogInResponse>) in
     // ...
 }
@@ -146,7 +154,8 @@ struct LogInRequest: Request, RequestDelegate {
     // ...
     
     func requestWillSend(_ urlRequest: inout URLRequest) {
-        // Called before request is sent out. You are able to modify the URLRequest: update HTTP header for example.
+        // Called before request is sent out.
+        // You are able to modify the URLRequest: update HTTP header for example.
     }
     
     func requestDidSend(_ urlRequest: URLRequest) {
