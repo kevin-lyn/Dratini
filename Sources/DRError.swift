@@ -6,6 +6,8 @@
 //  Copyright © 2017 Kevin. All rights reserved.
 //
 
+import Foundation
+
 /// Dratini error type.
 /// - invalidParameters(String): something went wrong during parameters encoding.
 /// - invalidResponse(Error): error thrown by URLSession.

@@ -6,6 +6,8 @@
 //  Copyright © 2017 Kevin. All rights reserved.
 //
 
+import Foundation
+
 struct RequestConverter {
     private init() {}
     

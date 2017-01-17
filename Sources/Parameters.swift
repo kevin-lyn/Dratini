@@ -6,6 +6,7 @@
 //  Copyright © 2017 Kevin. All rights reserved.
 //
 
+import Foundation
 import Ditto
 
 /// This protocol is only used internally to eliminate the difference between QueryString and BodyData.

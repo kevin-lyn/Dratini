@@ -6,6 +6,8 @@
 //  Copyright © 2017 Kevin. All rights reserved.
 //
 
+import Foundation
+
 /// Wrapper of raw response data.
 /// It also provides handy functions for accessing the data in string, JSON object or JSON array.
 open class ResponseData {

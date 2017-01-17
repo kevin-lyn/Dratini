@@ -6,6 +6,8 @@
 //  Copyright © 2017 Kevin. All rights reserved.
 //
 
+import Foundation
+
 public enum HTTPMethod: String {
     case options, get, head, post, put, patch, delete, trace, connect
 }

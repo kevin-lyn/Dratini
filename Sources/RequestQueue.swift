@@ -6,6 +6,8 @@
 //  Copyright © 2017 Kevin. All rights reserved.
 //
 
+import Foundation
+
 public typealias RequestID = UInt64
 
 /// Configuration for requst queue.
