@@ -1,6 +1,6 @@
-# <img src="https://cloud.githubusercontent.com/assets/1491282/21975961/6d807474-dc0a-11e6-8f36-a71e7f38ee74.png" height="26" width="26"> Dratini ![CI Status](https://travis-ci.org/kevin0571/Dratini.svg?branch=master) ![Version](http://img.shields.io/cocoapods/v/Dratini.svg?style=flag) ![Carthage](https://img.shields.io/badge/Carthage-compatible-brightgreen.svg) ![Swift Pacakge Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg) ![License](https://img.shields.io/cocoapods/l/Dratini.svg?style=flag)
-Dratini is a neat network abstraction layer.
-If you are looking for a solution to make your network layer neat, Dratini is your choice.
+# <img src="https://cloud.githubusercontent.com/assets/1491282/21975961/6d807474-dc0a-11e6-8f36-a71e7f38ee74.png" height="26" width="26"> Dratini ![CI Status](https://travis-ci.org/kevin0571/Dratini.svg?branch=master) [![codecov](https://codecov.io/gh/kevin0571/Dratini/branch/master/graph/badge.svg)](https://codecov.io/gh/kevin0571/Dratini) ![CocoaPods](http://img.shields.io/cocoapods/v/Dratini.svg?style=flag) ![Carthage](https://img.shields.io/badge/Carthage-compatible-brightgreen.svg) ![Swift Pacakge Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg) ![License](https://img.shields.io/cocoapods/l/Dratini.svg?style=flag)
+Dratini is a neat network abstraction layer.  
+If you are looking for a solution to make your network layer neat, Dratini is your choice.  
 Dratini uses protocols to define network request, parameters and response, which makes your network layer more readable and testable.
 
 ## Features
