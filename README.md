@@ -21,7 +21,6 @@ Dratini uses protocols to define network request, parameters and response, which
 
 **CocoaPods**
 ```ruby
-platform :ios, '8.0'
 pod 'Dratini'
 ```
 
