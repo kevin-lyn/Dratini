@@ -1,7 +1,7 @@
 language: swift
 osx_image: xcode8.2
 script:
-- xcodebuild test -project Dratini.xcodeproj -scheme Dratini -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=9.0'
+- xcodebuild test -project Dratini.xcodeproj -scheme Dratini -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.2'
 after_success:
 - bash <(curl -s https://codecov.io/bash) -J 'Dratini'
 
