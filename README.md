@@ -7,7 +7,7 @@ Dratini uses protocols to define network request, parameters and response, which
 - Protocol base design.
 - Auto serialization for parameters.
 - Response is observable by request id or response type.
-- UI non-blocking since request and response handling heppen in background thread.
+- UI non-blocking since request and response handling happen in background thread.
 - Request and response are interceptable by using delegate.
 
 ## Requirements
@@ -224,6 +224,14 @@ Check if request is finished and cancel it:
 ```swift
 let isFinished = RequestQueue.shared.isFinished(requestID)
 RequestQueue.shared.cancel(requestID)
+```
+
+### Helpers
+
+When you don't really need a Parameters or Response, you can use:
+```swift
+EmptyParameters
+EmptyResponse
 ```
 
 ### Customization
