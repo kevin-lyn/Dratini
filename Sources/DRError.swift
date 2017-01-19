@@ -17,7 +17,7 @@ import Foundation
 public enum DRError: Error {
     case invalidParameters(String)
     case invalidResponse(Error)
-    case responseValidationFailed(URLResponse)
+    case responseValidationFailed(Data, URLResponse)
     case responseSerializationFailed
     case unknown
 }

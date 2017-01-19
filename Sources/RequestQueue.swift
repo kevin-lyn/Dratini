@@ -216,7 +216,7 @@ extension RequestQueue {
                         throw DRError.unknown
                     }
                     guard responseType.validate(urlResponse) else {
-                        throw DRError.responseValidationFailed(urlResponse)
+                        throw DRError.responseValidationFailed(data, urlResponse)
                     }
                     guard let response = responseType.init(data: ResponseData(data), response: urlResponse) else {
                         throw DRError.responseSerializationFailed
