@@ -4,13 +4,15 @@
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8B123162C394A0A0A138779108E4C59DD771865A" : 9223372036854775807,
     "0D32BF1893ED9A31A02C803033FC3BB411A29377" : 9223372036854775807,
     "8F8D523A113DCD3A9D56182E3C82A270279DADC6" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B0FEB3A0-E98F-4A1E-A593-3E98C94C0A61",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8B123162C394A0A0A138779108E4C59DD771865A" : "Dratini\/RxSwift\/",
     "0D32BF1893ED9A31A02C803033FC3BB411A29377" : "Dratini\/",
-    "8F8D523A113DCD3A9D56182E3C82A270279DADC6" : "Dratini\/Ditto\/"
+    "8F8D523A113DCD3A9D56182E3C82A270279DADC6" : "Dratini\/.build\/checkouts\/Ditto.git--15477487491508354\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Dratini",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -20,6 +22,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kevin0571\/Dratini.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0D32BF1893ED9A31A02C803033FC3BB411A29377"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ReactiveX\/RxSwift",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8B123162C394A0A0A138779108E4C59DD771865A"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kevin0571\/Ditto",

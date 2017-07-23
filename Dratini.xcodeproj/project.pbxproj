@@ -7,539 +7,523 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7631E6C11E2494AE004A2A2B /* Dratini.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7631E6B71E2494AE004A2A2B /* Dratini.framework */; };
-		7631E6E61E2495DB004A2A2B /* Ditto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7631E6E11E2495CF004A2A2B /* Ditto.framework */; };
-		7631E6EB1E249638004A2A2B /* Ditto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7631E6E11E2495CF004A2A2B /* Ditto.framework */; };
-		765E44D81E2CAD150040E71A /* Dratini.h in Headers */ = {isa = PBXBuildFile; fileRef = 765E44CA1E2CAD150040E71A /* Dratini.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		765E44D91E2CAD150040E71A /* DRError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765E44CB1E2CAD150040E71A /* DRError.swift */; };
-		765E44DB1E2CAD150040E71A /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765E44CD1E2CAD150040E71A /* Parameters.swift */; };
-		765E44DC1E2CAD150040E71A /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765E44CE1E2CAD150040E71A /* Request.swift */; };
-		765E44DD1E2CAD150040E71A /* RequestConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765E44CF1E2CAD150040E71A /* RequestConverter.swift */; };
-		765E44DE1E2CAD150040E71A /* RequestQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765E44D01E2CAD150040E71A /* RequestQueue.swift */; };
-		765E44DF1E2CAD150040E71A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765E44D11E2CAD150040E71A /* Response.swift */; };
-		765E44E11E2CAD4D0040E71A /* ParametersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765E44C41E2CAD150040E71A /* ParametersTests.swift */; };
-		765E44E21E2CAD4D0040E71A /* RequestConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765E44C51E2CAD150040E71A /* RequestConverterTests.swift */; };
-		765E44E31E2CAD4D0040E71A /* RequestQueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765E44C61E2CAD150040E71A /* RequestQueueTests.swift */; };
-		765E44E41E2CAD4D0040E71A /* RequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765E44C71E2CAD150040E71A /* RequestTests.swift */; };
-		765E44E51E2CAD4D0040E71A /* ResponseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765E44C81E2CAD150040E71A /* ResponseTests.swift */; };
+		76D6CA071F245FA40021198C /* ResponseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D6C9FD1F245DE70021198C /* ResponseTests.swift */; };
+		76D6CA081F245FA40021198C /* RequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D6C9FE1F245DE70021198C /* RequestTests.swift */; };
+		76D6CA091F245FA40021198C /* RequestQueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D6C9FF1F245DE70021198C /* RequestQueueTests.swift */; };
+		76D6CA0A1F245FA40021198C /* RequestConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D6CA001F245DE70021198C /* RequestConverterTests.swift */; };
+		76D6CA0B1F245FA40021198C /* ParametersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D6CA011F245DE70021198C /* ParametersTests.swift */; };
+		OBJ_34 /* AutoMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* AutoMapping.swift */; };
+		OBJ_35 /* Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Convertible.swift */; };
+		OBJ_36 /* ConvertibleTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* ConvertibleTypes.swift */; };
+		OBJ_37 /* Serializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* Serializable.swift */; };
+		OBJ_38 /* Serializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* Serializer.swift */; };
+		OBJ_45 /* DRError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* DRError.swift */; };
+		OBJ_46 /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Parameters.swift */; };
+		OBJ_47 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Request.swift */; };
+		OBJ_48 /* RequestConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* RequestConverter.swift */; };
+		OBJ_49 /* RequestQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* RequestQueue.swift */; };
+		OBJ_50 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Response.swift */; };
+		OBJ_52 /* Ditto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Ditto.framework */; };
+		OBJ_61 /* Ditto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Ditto.framework */; };
+		OBJ_62 /* Dratini.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* Dratini.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7631E6C21E2494AE004A2A2B /* PBXContainerItemProxy */ = {
+		76D6C9FA1F245DA90021198C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7631E6AE1E2494AE004A2A2B /* Project object */;
+			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7631E6B61E2494AE004A2A2B;
+			remoteGlobalIDString = OBJ_29;
+			remoteInfo = Ditto;
+		};
+		76D6C9FB1F245DA90021198C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_29;
+			remoteInfo = Ditto;
+		};
+		76D6C9FC1F245DA90021198C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_40;
 			remoteInfo = Dratini;
-		};
-		7631E6E01E2495CF004A2A2B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7631E6DB1E2495CF004A2A2B /* Ditto.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 7681250F1D7EF01100856E0C;
-			remoteInfo = Ditto;
-		};
-		7631E6E21E2495CF004A2A2B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7631E6DB1E2495CF004A2A2B /* Ditto.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 768125181D7EF01100856E0C;
-			remoteInfo = DittoTests;
-		};
-		7631E6E41E2495D6004A2A2B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7631E6DB1E2495CF004A2A2B /* Ditto.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = OBJ_17;
-			remoteInfo = Ditto;
-		};
-		7631E6E81E249619004A2A2B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7631E6DB1E2495CF004A2A2B /* Ditto.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = OBJ_17;
-			remoteInfo = Ditto;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7631E6B71E2494AE004A2A2B /* Dratini.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dratini.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7631E6C01E2494AE004A2A2B /* DratiniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DratiniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7631E6DB1E2495CF004A2A2B /* Ditto.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Ditto.xcodeproj; path = Ditto/Ditto.xcodeproj; sourceTree = "<group>"; };
-		765E44C31E2CAD150040E71A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		765E44C41E2CAD150040E71A /* ParametersTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParametersTests.swift; sourceTree = "<group>"; };
-		765E44C51E2CAD150040E71A /* RequestConverterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestConverterTests.swift; sourceTree = "<group>"; };
-		765E44C61E2CAD150040E71A /* RequestQueueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestQueueTests.swift; sourceTree = "<group>"; };
-		765E44C71E2CAD150040E71A /* RequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestTests.swift; sourceTree = "<group>"; };
-		765E44C81E2CAD150040E71A /* ResponseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseTests.swift; sourceTree = "<group>"; };
-		765E44CA1E2CAD150040E71A /* Dratini.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dratini.h; sourceTree = "<group>"; };
-		765E44CB1E2CAD150040E71A /* DRError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRError.swift; sourceTree = "<group>"; };
-		765E44CC1E2CAD150040E71A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		765E44CD1E2CAD150040E71A /* Parameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parameters.swift; sourceTree = "<group>"; };
-		765E44CE1E2CAD150040E71A /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
-		765E44CF1E2CAD150040E71A /* RequestConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestConverter.swift; sourceTree = "<group>"; };
-		765E44D01E2CAD150040E71A /* RequestQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestQueue.swift; sourceTree = "<group>"; };
-		765E44D11E2CAD150040E71A /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		76D6C9FD1F245DE70021198C /* ResponseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseTests.swift; sourceTree = "<group>"; };
+		76D6C9FE1F245DE70021198C /* RequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestTests.swift; sourceTree = "<group>"; };
+		76D6C9FF1F245DE70021198C /* RequestQueueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestQueueTests.swift; sourceTree = "<group>"; };
+		76D6CA001F245DE70021198C /* RequestConverterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestConverterTests.swift; sourceTree = "<group>"; };
+		76D6CA011F245DE70021198C /* ParametersTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParametersTests.swift; sourceTree = "<group>"; };
+		OBJ_10 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		OBJ_11 /* RequestConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestConverter.swift; sourceTree = "<group>"; };
+		OBJ_12 /* RequestQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestQueue.swift; sourceTree = "<group>"; };
+		OBJ_13 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		OBJ_20 /* AutoMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoMapping.swift; sourceTree = "<group>"; };
+		OBJ_21 /* Convertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Convertible.swift; sourceTree = "<group>"; };
+		OBJ_22 /* ConvertibleTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertibleTypes.swift; sourceTree = "<group>"; };
+		OBJ_23 /* Serializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serializable.swift; sourceTree = "<group>"; };
+		OBJ_24 /* Serializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serializer.swift; sourceTree = "<group>"; };
+		OBJ_26 /* Ditto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Ditto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_27 /* Dratini.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Dratini.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_28 /* DratiniTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = DratiniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_8 /* DRError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRError.swift; sourceTree = "<group>"; };
+		OBJ_9 /* Parameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parameters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7631E6B31E2494AE004A2A2B /* Frameworks */ = {
+		OBJ_39 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				7631E6E61E2495DB004A2A2B /* Ditto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7631E6BD1E2494AE004A2A2B /* Frameworks */ = {
+		OBJ_51 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				7631E6EB1E249638004A2A2B /* Ditto.framework in Frameworks */,
-				7631E6C11E2494AE004A2A2B /* Dratini.framework in Frameworks */,
+				OBJ_52 /* Ditto.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_61 /* Ditto.framework in Frameworks */,
+				OBJ_62 /* Dratini.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7631E6AD1E2494AD004A2A2B = {
+		OBJ_14 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				7631E6DB1E2495CF004A2A2B /* Ditto.xcodeproj */,
-				765E44C91E2CAD150040E71A /* Sources */,
-				765E44C21E2CAD150040E71A /* Tests */,
-				7631E6B81E2494AE004A2A2B /* Products */,
+				OBJ_15 /* DratiniTests */,
 			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_15 /* DratiniTests */ = {
+			isa = PBXGroup;
+			children = (
+				76D6C9FD1F245DE70021198C /* ResponseTests.swift */,
+				76D6C9FE1F245DE70021198C /* RequestTests.swift */,
+				76D6C9FF1F245DE70021198C /* RequestQueueTests.swift */,
+				76D6CA001F245DE70021198C /* RequestConverterTests.swift */,
+				76D6CA011F245DE70021198C /* ParametersTests.swift */,
+			);
+			name = DratiniTests;
+			path = Tests/DratiniTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_18 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_19 /* Ditto 1.0.2 */,
+			);
+			name = Dependencies;
 			sourceTree = "<group>";
 		};
-		7631E6B81E2494AE004A2A2B /* Products */ = {
+		OBJ_19 /* Ditto 1.0.2 */ = {
 			isa = PBXGroup;
 			children = (
-				7631E6B71E2494AE004A2A2B /* Dratini.framework */,
-				7631E6C01E2494AE004A2A2B /* DratiniTests.xctest */,
+				OBJ_20 /* AutoMapping.swift */,
+				OBJ_21 /* Convertible.swift */,
+				OBJ_22 /* ConvertibleTypes.swift */,
+				OBJ_23 /* Serializable.swift */,
+				OBJ_24 /* Serializer.swift */,
+			);
+			name = "Ditto 1.0.2";
+			path = ".build/checkouts/Ditto.git--15477487491508354/Sources";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_26 /* Ditto.framework */,
+				OBJ_27 /* Dratini.framework */,
+				OBJ_28 /* DratiniTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
+			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		7631E6DC1E2495CF004A2A2B /* Products */ = {
+		OBJ_5 /*  */ = {
 			isa = PBXGroup;
 			children = (
-				7631E6E11E2495CF004A2A2B /* Ditto.framework */,
-				7631E6E31E2495CF004A2A2B /* DittoTests.xctest */,
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_14 /* Tests */,
+				OBJ_18 /* Dependencies */,
+				OBJ_25 /* Products */,
 			);
-			name = Products;
+			name = "";
 			sourceTree = "<group>";
 		};
-		765E44C21E2CAD150040E71A /* Tests */ = {
+		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				765E44C31E2CAD150040E71A /* Info.plist */,
-				765E44C41E2CAD150040E71A /* ParametersTests.swift */,
-				765E44C71E2CAD150040E71A /* RequestTests.swift */,
-				765E44C81E2CAD150040E71A /* ResponseTests.swift */,
-				765E44C51E2CAD150040E71A /* RequestConverterTests.swift */,
-				765E44C61E2CAD150040E71A /* RequestQueueTests.swift */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		765E44C91E2CAD150040E71A /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				765E44CA1E2CAD150040E71A /* Dratini.h */,
-				765E44CC1E2CAD150040E71A /* Info.plist */,
-				765E44CD1E2CAD150040E71A /* Parameters.swift */,
-				765E44CE1E2CAD150040E71A /* Request.swift */,
-				765E44D11E2CAD150040E71A /* Response.swift */,
-				765E44CF1E2CAD150040E71A /* RequestConverter.swift */,
-				765E44D01E2CAD150040E71A /* RequestQueue.swift */,
-				765E44CB1E2CAD150040E71A /* DRError.swift */,
+				OBJ_8 /* DRError.swift */,
+				OBJ_9 /* Parameters.swift */,
+				OBJ_10 /* Request.swift */,
+				OBJ_11 /* RequestConverter.swift */,
+				OBJ_12 /* RequestQueue.swift */,
+				OBJ_13 /* Response.swift */,
 			);
 			path = Sources;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		7631E6B41E2494AE004A2A2B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				765E44D81E2CAD150040E71A /* Dratini.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		7631E6B61E2494AE004A2A2B /* Dratini */ = {
+		OBJ_29 /* Ditto */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7631E6CB1E2494AE004A2A2B /* Build configuration list for PBXNativeTarget "Dratini" */;
+			buildConfigurationList = OBJ_30 /* Build configuration list for PBXNativeTarget "Ditto" */;
 			buildPhases = (
-				7631E6B21E2494AE004A2A2B /* Sources */,
-				7631E6B31E2494AE004A2A2B /* Frameworks */,
-				7631E6B41E2494AE004A2A2B /* Headers */,
-				7631E6B51E2494AE004A2A2B /* Resources */,
+				OBJ_33 /* Sources */,
+				OBJ_39 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7631E6E51E2495D6004A2A2B /* PBXTargetDependency */,
+			);
+			name = Ditto;
+			productName = Ditto;
+			productReference = OBJ_26 /* Ditto.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_40 /* Dratini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_41 /* Build configuration list for PBXNativeTarget "Dratini" */;
+			buildPhases = (
+				OBJ_44 /* Sources */,
+				OBJ_51 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_53 /* PBXTargetDependency */,
 			);
 			name = Dratini;
 			productName = Dratini;
-			productReference = 7631E6B71E2494AE004A2A2B /* Dratini.framework */;
+			productReference = OBJ_27 /* Dratini.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7631E6BF1E2494AE004A2A2B /* DratiniTests */ = {
+		OBJ_54 /* DratiniTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7631E6CE1E2494AE004A2A2B /* Build configuration list for PBXNativeTarget "DratiniTests" */;
+			buildConfigurationList = OBJ_55 /* Build configuration list for PBXNativeTarget "DratiniTests" */;
 			buildPhases = (
-				7631E6BC1E2494AE004A2A2B /* Sources */,
-				7631E6BD1E2494AE004A2A2B /* Frameworks */,
-				7631E6BE1E2494AE004A2A2B /* Resources */,
+				OBJ_58 /* Sources */,
+				OBJ_60 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7631E6E91E249619004A2A2B /* PBXTargetDependency */,
-				7631E6C31E2494AE004A2A2B /* PBXTargetDependency */,
+				OBJ_63 /* PBXTargetDependency */,
+				OBJ_64 /* PBXTargetDependency */,
 			);
 			name = DratiniTests;
 			productName = DratiniTests;
-			productReference = 7631E6C01E2494AE004A2A2B /* DratiniTests.xctest */;
+			productReference = OBJ_28 /* DratiniTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7631E6AE1E2494AE004A2A2B /* Project object */ = {
+		OBJ_1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = Kevin;
-				TargetAttributes = {
-					7631E6B61E2494AE004A2A2B = {
-						CreatedOnToolsVersion = 8.2.1;
-						LastSwiftMigration = 0820;
-						ProvisioningStyle = Automatic;
-					};
-					7631E6BF1E2494AE004A2A2B = {
-						CreatedOnToolsVersion = 8.2.1;
-						LastSwiftMigration = 0820;
-						ProvisioningStyle = Automatic;
-					};
-				};
+				LastUpgradeCheck = 9999;
 			};
-			buildConfigurationList = 7631E6B11E2494AE004A2A2B /* Build configuration list for PBXProject "Dratini" */;
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Dratini" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7631E6AD1E2494AD004A2A2B;
-			productRefGroup = 7631E6B81E2494AE004A2A2B /* Products */;
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_25 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 7631E6DC1E2495CF004A2A2B /* Products */;
-					ProjectRef = 7631E6DB1E2495CF004A2A2B /* Ditto.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				7631E6B61E2494AE004A2A2B /* Dratini */,
-				7631E6BF1E2494AE004A2A2B /* DratiniTests */,
+				OBJ_29 /* Ditto */,
+				OBJ_40 /* Dratini */,
+				OBJ_54 /* DratiniTests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		7631E6E11E2495CF004A2A2B /* Ditto.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Ditto.framework;
-			remoteRef = 7631E6E01E2495CF004A2A2B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		7631E6E31E2495CF004A2A2B /* DittoTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = DittoTests.xctest;
-			remoteRef = 7631E6E21E2495CF004A2A2B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
-/* Begin PBXResourcesBuildPhase section */
-		7631E6B51E2494AE004A2A2B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7631E6BE1E2494AE004A2A2B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		7631E6B21E2494AE004A2A2B /* Sources */ = {
+		OBJ_33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				765E44DC1E2CAD150040E71A /* Request.swift in Sources */,
-				765E44DB1E2CAD150040E71A /* Parameters.swift in Sources */,
-				765E44DD1E2CAD150040E71A /* RequestConverter.swift in Sources */,
-				765E44DF1E2CAD150040E71A /* Response.swift in Sources */,
-				765E44DE1E2CAD150040E71A /* RequestQueue.swift in Sources */,
-				765E44D91E2CAD150040E71A /* DRError.swift in Sources */,
+				OBJ_34 /* AutoMapping.swift in Sources */,
+				OBJ_35 /* Convertible.swift in Sources */,
+				OBJ_36 /* ConvertibleTypes.swift in Sources */,
+				OBJ_37 /* Serializable.swift in Sources */,
+				OBJ_38 /* Serializer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7631E6BC1E2494AE004A2A2B /* Sources */ = {
+		OBJ_44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				765E44E11E2CAD4D0040E71A /* ParametersTests.swift in Sources */,
-				765E44E21E2CAD4D0040E71A /* RequestConverterTests.swift in Sources */,
-				765E44E31E2CAD4D0040E71A /* RequestQueueTests.swift in Sources */,
-				765E44E41E2CAD4D0040E71A /* RequestTests.swift in Sources */,
-				765E44E51E2CAD4D0040E71A /* ResponseTests.swift in Sources */,
+				OBJ_45 /* DRError.swift in Sources */,
+				OBJ_46 /* Parameters.swift in Sources */,
+				OBJ_47 /* Request.swift in Sources */,
+				OBJ_48 /* RequestConverter.swift in Sources */,
+				OBJ_49 /* RequestQueue.swift in Sources */,
+				OBJ_50 /* Response.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				76D6CA071F245FA40021198C /* ResponseTests.swift in Sources */,
+				76D6CA081F245FA40021198C /* RequestTests.swift in Sources */,
+				76D6CA091F245FA40021198C /* RequestQueueTests.swift in Sources */,
+				76D6CA0A1F245FA40021198C /* RequestConverterTests.swift in Sources */,
+				76D6CA0B1F245FA40021198C /* ParametersTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7631E6C31E2494AE004A2A2B /* PBXTargetDependency */ = {
+		OBJ_53 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7631E6B61E2494AE004A2A2B /* Dratini */;
-			targetProxy = 7631E6C21E2494AE004A2A2B /* PBXContainerItemProxy */;
+			target = OBJ_29 /* Ditto */;
+			targetProxy = 76D6C9FA1F245DA90021198C /* PBXContainerItemProxy */;
 		};
-		7631E6E51E2495D6004A2A2B /* PBXTargetDependency */ = {
+		OBJ_63 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Ditto;
-			targetProxy = 7631E6E41E2495D6004A2A2B /* PBXContainerItemProxy */;
+			target = OBJ_29 /* Ditto */;
+			targetProxy = 76D6C9FB1F245DA90021198C /* PBXContainerItemProxy */;
 		};
-		7631E6E91E249619004A2A2B /* PBXTargetDependency */ = {
+		OBJ_64 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Ditto;
-			targetProxy = 7631E6E81E249619004A2A2B /* PBXContainerItemProxy */;
+			target = OBJ_40 /* Dratini */;
+			targetProxy = 76D6C9FC1F245DA90021198C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		7631E6C91E2494AE004A2A2B /* Debug */ = {
+		OBJ_3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				SWIFT_VERSION = 3.0;
+				USE_HEADERMAP = NO;
 			};
 			name = Debug;
 		};
-		7631E6CA1E2494AE004A2A2B /* Release */ = {
+		OBJ_31 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Dratini.xcodeproj/Ditto_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Ditto;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Ditto;
+			};
+			name = Debug;
+		};
+		OBJ_32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Dratini.xcodeproj/Ditto_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Ditto;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Ditto;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				SWIFT_VERSION = 3.0;
+				USE_HEADERMAP = NO;
 			};
 			name = Release;
 		};
-		7631E6CC1E2494AE004A2A2B /* Debug */ = {
+		OBJ_42 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = me.sth4.its.Dratini;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Dratini.xcodeproj/Dratini_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Dratini;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				TARGET_NAME = Dratini;
 			};
 			name = Debug;
 		};
-		7631E6CD1E2494AE004A2A2B /* Release */ = {
+		OBJ_43 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = me.sth4.its.Dratini;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Dratini.xcodeproj/Dratini_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Dratini;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				TARGET_NAME = Dratini;
 			};
 			name = Release;
 		};
-		7631E6CF1E2494AE004A2A2B /* Debug */ = {
+		OBJ_56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.sth4.its.DratiniTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Dratini.xcodeproj/DratiniTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				TARGET_NAME = DratiniTests;
 			};
 			name = Debug;
 		};
-		7631E6D01E2494AE004A2A2B /* Release */ = {
+		OBJ_57 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.sth4.its.DratiniTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Dratini.xcodeproj/DratiniTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				TARGET_NAME = DratiniTests;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7631E6B11E2494AE004A2A2B /* Build configuration list for PBXProject "Dratini" */ = {
+		OBJ_2 /* Build configuration list for PBXProject "Dratini" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7631E6C91E2494AE004A2A2B /* Debug */,
-				7631E6CA1E2494AE004A2A2B /* Release */,
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		7631E6CB1E2494AE004A2A2B /* Build configuration list for PBXNativeTarget "Dratini" */ = {
+		OBJ_30 /* Build configuration list for PBXNativeTarget "Ditto" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7631E6CC1E2494AE004A2A2B /* Debug */,
-				7631E6CD1E2494AE004A2A2B /* Release */,
+				OBJ_31 /* Debug */,
+				OBJ_32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		7631E6CE1E2494AE004A2A2B /* Build configuration list for PBXNativeTarget "DratiniTests" */ = {
+		OBJ_41 /* Build configuration list for PBXNativeTarget "Dratini" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7631E6CF1E2494AE004A2A2B /* Debug */,
-				7631E6D01E2494AE004A2A2B /* Release */,
+				OBJ_42 /* Debug */,
+				OBJ_43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_55 /* Build configuration list for PBXNativeTarget "DratiniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_56 /* Debug */,
+				OBJ_57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7631E6AE1E2494AE004A2A2B /* Project object */;
+	rootObject = OBJ_1 /* Project object */;
 }

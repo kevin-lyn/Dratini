@@ -96,7 +96,7 @@ private struct TestPostRequest: Request {
 }
 
 private struct TestPostMultipartResponse: Response {
-    let dataContent: Data
+    let fileContent: String
     let stringContent: String
     let stringValue: String
     let chineseValue: String
@@ -104,13 +104,13 @@ private struct TestPostMultipartResponse: Response {
     init?(data: ResponseData, response: URLResponse) {
         guard let files = data.jsonObject["files"] as? [String: Any],
             let form = data.jsonObject["form"] as? [String: Any],
-            let dataContentString = files["data_content"] as? String,
+            let fileContent = files["file_content"] as? String,
             let stringContent = files["string_content"] as? String,
             let stringValue = form["string_value"] as? String,
             let chineseValue = form["chinese_value"] as? String else {
                 return nil
         }
-        self.dataContent = Data(base64Encoded: dataContentString.components(separatedBy: "base64,")[1])!
+        self.fileContent = fileContent
         self.stringContent = stringContent
         self.stringValue = stringValue
         self.chineseValue = chineseValue
@@ -205,10 +205,13 @@ class RequestQueueTests: XCTestCase {
     
     func testMultipartRequest() {
         let expectation = self.expectation(description: #function)
+        
+        let fileURL = URL(fileURLWithPath: NSTemporaryDirectory()).appendingPathComponent("test_file")
+        let fileContent = "Test file content"
+        try! fileContent.data(using: .utf8)?.write(to: fileURL)
 
         let data = MultipartFormData()
-        let fileURL = URL(fileURLWithPath: Bundle(for: type(of: self)).path(forResource: "Info", ofType: "plist")!)
-        data.append(fileURL: fileURL, withName: "data_content", fileName: "Info.plist", mimeType: "application/x-plist")
+        data.append(fileURL: fileURL, withName: "file_content", fileName: "test_file", mimeType: "text/plain")
         let stringContent = "Test file data"
         data.append(data: stringContent.data(using: .utf8)!, withName: "string_content")
         let stringValue = "string"
@@ -223,7 +226,7 @@ class RequestQueueTests: XCTestCase {
                 XCTFail("Invalid response")
                 return
             }
-            XCTAssert(response.dataContent == (try? Data(contentsOf: fileURL))!)
+            XCTAssert(response.fileContent == fileContent)
             XCTAssert(response.stringContent == stringContent)
             XCTAssert(response.stringValue == stringValue)
             XCTAssert(response.chineseValue == chineseValue)

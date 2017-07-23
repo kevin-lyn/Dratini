@@ -1,0 +1,12 @@
+{
+  "autoPin": true,
+  "pins": [
+    {
+      "package": "Ditto",
+      "reason": null,
+      "repositoryURL": "https://github.com/kevin0571/Ditto.git",
+      "version": "1.0.2"
+    }
+  ],
+  "version": 1
+}
