@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'Dratini'
-  s.version = '1.1.0'
+  s.version = '1.1.1'
   s.license = 'MIT'
   s.summary = 'Dratini is a neat network abstraction layer.'
   s.homepage = 'https://github.com/kevin0571/Dratini'
