@@ -127,12 +127,12 @@
 		OBJ_18 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_19 /* Ditto 1.0.2 */,
+				OBJ_19 /* Ditto 1.0.3 */,
 			);
 			name = Dependencies;
 			sourceTree = "<group>";
 		};
-		OBJ_19 /* Ditto 1.0.2 */ = {
+		OBJ_19 /* Ditto 1.0.3 */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_20 /* AutoMapping.swift */,
@@ -141,7 +141,7 @@
 				OBJ_23 /* Serializable.swift */,
 				OBJ_24 /* Serializer.swift */,
 			);
-			name = "Ditto 1.0.2";
+			name = "Ditto 1.0.3";
 			path = ".build/checkouts/Ditto.git--15477487491508354/Sources";
 			sourceTree = SOURCE_ROOT;
 		};
@@ -155,7 +155,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -164,7 +164,6 @@
 				OBJ_18 /* Dependencies */,
 				OBJ_25 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -249,7 +248,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_25 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
