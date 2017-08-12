@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "769999B91F3F2F3200EC035C"
-               BuildableName = "Dratini-tvOS.framework"
+               BuildableName = "Dratini.framework"
                BlueprintName = "Dratini-tvOS"
                ReferencedContainer = "container:Dratini.xcodeproj">
             </BuildableReference>
@@ -26,14 +26,15 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "769999C11F3F2F3300EC035C"
-               BuildableName = "Dratini-tvOSTests.xctest"
+               BuildableName = "Dratini-Tests.xctest"
                BlueprintName = "Dratini-tvOSTests"
                ReferencedContainer = "container:Dratini.xcodeproj">
             </BuildableReference>
@@ -43,7 +44,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "769999B91F3F2F3200EC035C"
-            BuildableName = "Dratini-tvOS.framework"
+            BuildableName = "Dratini.framework"
             BlueprintName = "Dratini-tvOS"
             ReferencedContainer = "container:Dratini.xcodeproj">
          </BuildableReference>
@@ -65,7 +66,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "769999B91F3F2F3200EC035C"
-            BuildableName = "Dratini-tvOS.framework"
+            BuildableName = "Dratini.framework"
             BlueprintName = "Dratini-tvOS"
             ReferencedContainer = "container:Dratini.xcodeproj">
          </BuildableReference>
@@ -83,7 +84,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "769999B91F3F2F3200EC035C"
-            BuildableName = "Dratini-tvOS.framework"
+            BuildableName = "Dratini.framework"
             BlueprintName = "Dratini-tvOS"
             ReferencedContainer = "container:Dratini.xcodeproj">
          </BuildableReference>
