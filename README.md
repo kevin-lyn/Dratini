@@ -9,6 +9,7 @@ Dratini uses protocols to define network request, parameters and response, which
 - Response is observable by request id or response type.
 - UI non-blocking since request and response handling happen in background thread.
 - Request and response are interceptable by using delegate.
+- RxSwift extension is available: [RxDratini](https://github.com/kevin0571/RxDratini)
 
 ## Requirements
 - Xcode 8.0+
