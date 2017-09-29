@@ -7,5 +7,5 @@ script:
 - xcodebuild -project Dratini.xcodeproj -scheme "Dratini-watchOS" -sdk "watchsimulator" -destination "OS=3.2,name=Apple Watch - 42mm"
 - xcodebuild test -project Dratini.xcodeproj -scheme "Dratini-tvOS" -sdk "appletvsimulator" -destination "OS=10.0,name=Apple TV 1080p"
 after_success:
-- bash <(curl -s https://codecov.io/bash) -J 'Dratini'
+- bash <(curl -s https://codecov.io/bash) -J 'Dratini' -X xcodeplist
 
